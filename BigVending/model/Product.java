@@ -1,6 +1,6 @@
-package VendingMachineProject;
+package BigVending.model;
 
-public abstract class Product extends VendingMachine {
+public class Product {
     private double cost;
     private String name;
 
@@ -29,5 +29,18 @@ public abstract class Product extends VendingMachine {
     @Override
     public String toString() {
         return "Наименование: " + name + "; Cтоимость: " + cost;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (super.equals(obj)) {
+            return true;
+        }
+        if (obj instanceof Product) {
+            Product product = (Product) obj;
+            return getName().equals(product.getName());
+        } else {
+            return false;
+        }
     }
 }

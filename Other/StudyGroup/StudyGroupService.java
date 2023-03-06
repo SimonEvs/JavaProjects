@@ -1,4 +1,4 @@
-package StudyGroup;
+package Other.StudyGroup;
 
 import java.util.Collections;
 

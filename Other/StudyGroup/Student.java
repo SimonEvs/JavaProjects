@@ -1,4 +1,4 @@
-package StudyGroup;
+package Other.StudyGroup;
 
 public class Student implements Comparable<Student> {
     private int id;

@@ -1,4 +1,4 @@
-package VendingMachineProject;
+package Other.VendingMachineProject;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package VendingMachineProject;
+package Other.VendingMachineProject;
 
 public class TypeProduct {
     public enum TypeProduct {

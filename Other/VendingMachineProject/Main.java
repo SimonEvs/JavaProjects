@@ -1,4 +1,4 @@
-package VendingMachineProject;
+package Other.VendingMachineProject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +19,8 @@ public class Main {
         products.add(new Other(1500, "Phone Charger", "Большой"));
 
         vendingMachine.getProductsList();
+        System.out.println();
+        vendingMachine.getProductByCost(50);
 
     }
 }
